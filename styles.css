@@ -44,7 +44,6 @@ header a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid;
     padding: 125px 250px;
 }
 
@@ -90,5 +89,52 @@ header a{
 
 .img-placeholder, .img-placeholder p{
     background-color: grey;
-    color:#F9FAF8
+    color:#F9FAF8;
+}
+
+/*information*/
+
+.information{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 50px;
+}
+.information, .information h2, .information p, .container, .card{
+    background-color: #F9FAF8;
+    margin: 0;
+    text-align: center;
+}
+
+.information h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information .container{
+    display: flex;
+    gap: 50px;
+}
+
+.information .card{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.information p{
+    color: grey;
+}
+
+.information .img-placeholder{
+    height: 170px;
+    width: 170px;
+    background-color: #F9FAF8;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
 }
