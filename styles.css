@@ -138,3 +138,36 @@ header a{
     border: 3px solid #3882F6;
     border-radius: 15px;
 }
+
+/*quote*/
+.quote{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 820px;
+}
+
+
+.quote, .quote h1, .quote h2, .quote .container{
+    background-color: #E5E7EB;
+    margin: 0;
+}
+
+.quote h1{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    align-self: flex-start;
+    text-align:left
+}
+
+.quote h2{
+    align-self: flex-end;
+}
